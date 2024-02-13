@@ -1,0 +1,23 @@
+<div id="app">{{ name }}</div>
+<div id="tag"> {{ tag }}</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.16"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: function(){
+            return {
+                name : 'Aungnaing Phyoe'
+            };
+        }
+    });
+
+    new Vue({
+        el: '#tag',
+        data: function(){
+            return {
+                tag : 'Backend Developer'
+            };
+        }
+    });
+</script>
